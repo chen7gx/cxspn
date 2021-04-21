@@ -3,9 +3,13 @@ accounts:
     coins: ["1000token", "100000000stake"]
   - name: bob
     coins: ["500token"]
+  - name: cx
+    coins: ["2000token", "200000000stake"]
 validator:
   name: alice
   staked: "100000000stake"
+  name: cx
+  staked: "200000000stake"
 client:
   vuex:
     path: "vue/src/store"
